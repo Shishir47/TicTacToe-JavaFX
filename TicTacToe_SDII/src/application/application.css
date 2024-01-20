@@ -1,0 +1,53 @@
+/* application.css */
+
+.root {
+    -fx-background-color: #F0F8FF;
+}
+
+#infoCenter {
+    -fx-alignment: center;
+}
+
+.label-message {
+    -fx-font-size: 24px;
+    -fx-text-fill: #61dafb;
+}
+
+.button-start-game, #previousGameButton {
+    -fx-font-size: 12px;
+    -fx-font-weight:700;
+    -fx-background-color: #61dafb;
+    -fx-text-fill: #fff;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button-start-game:hover, #previousGameButton:hover {
+    -fx-background-color: #45a9d2;
+}
+
+.button-container {
+    -fx-spacing: 14px;
+}
+
+/* Styles for the game board and tiles */
+#tileBoard {
+    -fx-border-color: #61dafb;
+    -fx-border-width: 2px;
+}
+
+.tile {
+    -fx-min-width: 100px;
+    -fx-min-height: 100px;
+    -fx-border-color: #61dafb;
+    -fx-border-width: 2px;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-alignment: center;
+}
+
+.tile:hover {
+    -fx-background-color: #61dafb;
+    -fx-opacity: 0.7;
+}
